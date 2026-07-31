@@ -1,56 +1,42 @@
 <p align="center">
-  <img src="./assets/header.svg?v=running-giraffe-2" width="100%" alt="daak — koşan zürafa, macOS araçları ve açık kaynak projeler">
+  <img src="./assets/header.svg?v=ascii-giraffe-1" width="100%" alt="daak terminal profili ve ASCII zürafa">
 </p>
 
 <p align="center">
-  <a href="https://github.com/benfirad?tab=repositories">
-    <img src="https://img.shields.io/badge/open%20source-built%20in%20public-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="Open source">
-  </a>
-  <img src="https://img.shields.io/badge/macOS-native%20utilities-111827?style=for-the-badge&logo=apple&logoColor=white" alt="Native macOS utilities">
-  <img src="https://img.shields.io/badge/privacy-local%20first-06b6d4?style=for-the-badge&logo=protonvpn&logoColor=white" alt="Privacy and local-first">
+  <code>macOS</code> · <code>local-first</code> · <code>open source</code> · <code>useful experiments</code>
 </p>
 
-<p align="center">
-  <strong>İşe yarayan, sessiz çalışan araçlar.</strong><br>
-  Small native utilities, local-first AI workflows and privacy-aware automation.
-</p>
+> İşe yarayan, sessiz çalışan araçlar. Küçük arayüzler, yerel yapay zekâ ve geri alınabilir otomasyonlar.
 
-## Currently building
+## `~/projects`
 
-| Project | What it does | Built with |
-| --- | --- | --- |
-| [🕰️ **ClockScrambler**](https://github.com/benfirad/ClockScrambler) | Turns the macOS menu-bar clock into emoji, written time or a background-aware live clock. | `Swift` `AppKit` |
-| [🧠 **daakRAM**](https://github.com/benfirad/daakRAM) | Watches real memory pressure and gives you safe, native app controls. | `Swift` `macOS` |
-| [💡 **daakREMEMBER**](https://github.com/benfirad/daakREMEMBER) | Captures a thought before it disappears and syncs it privately over Tailscale. | `Swift` `Tailscale` |
-| [🎙️ **daakDİKTE**](https://github.com/benfirad/daakDIKTE-macos) | A Turkish-friendly native macOS edition of [Yusuf İpek's Dikte](https://github.com/yusufipk/dikte), with local Whisper and Codex CLI support. | `Python` `PyQt6` |
-| [🛡️ **daakLOLILE**](https://github.com/benfirad/daakLOLILE) | Runs Tor/Snowflake, system telemetry and pressure-aware maintenance with safe power modes. | `PowerShell` `macOS` `Windows` |
+| Proje | Ne yapıyor? | Araçlar |
+| :--- | :--- | :--- |
+| [🕰️ **ClockScrambler**](https://github.com/benfirad/ClockScrambler) | Menü çubuğundaki saati emojiye, yazıya veya arka planla uyumlu canlı saate dönüştürür. | `Swift` `AppKit` |
+| [🧠 **daakRAM**](https://github.com/benfirad/daakRAM) | Gerçek bellek baskısını izler ve güvenli, yerel uygulama kontrolleri sunar. | `Swift` `macOS` |
+| [💡 **daakREMEMBER**](https://github.com/benfirad/daakREMEMBER) | Aklına gelenleri kaybolmadan yakalar ve Tailscale üzerinden özel olarak eşitler. | `Swift` `Tailscale` |
+| [🎙️ **daakDİKTE**](https://github.com/benfirad/daakDIKTE-macos) | [Yusuf İpek’in Dikte](https://github.com/yusufipk/dikte) projesinin Türkçe dostu macOS sürümü; yerel Whisper ve Codex CLI destekli. | `Python` `PyQt6` |
+| [🛡️ **daakLOLILE**](https://github.com/benfirad/daakLOLILE) | Tor/Snowflake, sistem telemetrisi ve baskıya duyarlı güvenli bakım araçları. | `PowerShell` `macOS` `Windows` |
 
-## The toolbox
+## `~/toolbox`
 
-<p>
-  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript">
-  <img src="https://img.shields.io/badge/AppKit-000000?style=flat-square&logo=apple&logoColor=white" alt="AppKit">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-</p>
+```text
+languages  : Swift, Python, PowerShell, JavaScript
+native     : AppKit, PyQt6, launchd, CoreGraphics
+local-ai   : whisper.cpp, Codex CLI
+principles : local-first, privacy-aware, reversible
+```
 
-- Native macOS menu-bar apps that stay out of the way.
-- Local-first speech, AI and automation whenever practical.
-- Small interfaces, reversible actions and honest system telemetry.
-- Open-source work documented in both Turkish and English.
-
-## Contribution motion
+## `~/activity`
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/benfirad/benfirad/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/benfirad/benfirad/output/github-contribution-grid-snake.svg">
-    <img alt="Animated contribution snake" src="https://raw.githubusercontent.com/benfirad/benfirad/output/github-contribution-grid-snake.svg">
+    <img alt="Hareketli GitHub katkı grafiği" src="https://raw.githubusercontent.com/benfirad/benfirad/output/github-contribution-grid-snake.svg">
   </picture>
 </p>
 
-<p align="center">
-  <sub>Build small. Verify the real thing. Share what survives the test.</sub>
-</p>
+```console
+daak@github:~$ echo "build small; verify the real thing; share what survives"
+```
