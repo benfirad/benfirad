@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="daak — macOS tools, privacy-first software and useful experiments">
+  <img src="./assets/header.svg?v=running-giraffe-2" width="100%" alt="daak — koşan zürafa, macOS araçları ve açık kaynak projeler">
 </p>
 
 <p align="center">
