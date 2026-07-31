@@ -10,13 +10,13 @@
 
 ## `~/projects`
 
-| Proje | Ne yapıyor? | Araçlar |
+| Project | What it does | Built with |
 | :--- | :--- | :--- |
-| [🕰️ **ClockScrambler**](https://github.com/benfirad/ClockScrambler) | Menü çubuğundaki saati emojiye, yazıya veya arka planla uyumlu canlı saate dönüştürür. | `Swift` `AppKit` |
-| [🧠 **daakRAM**](https://github.com/benfirad/daakRAM) | Gerçek bellek baskısını izler ve güvenli, yerel uygulama kontrolleri sunar. | `Swift` `macOS` |
-| [💡 **daakREMEMBER**](https://github.com/benfirad/daakREMEMBER) | Aklına gelenleri kaybolmadan yakalar ve Tailscale üzerinden özel olarak eşitler. | `Swift` `Tailscale` |
-| [🎙️ **daakDİKTE**](https://github.com/benfirad/daakDIKTE-macos) | [Yusuf İpek’in Dikte](https://github.com/yusufipk/dikte) projesinin Türkçe dostu macOS sürümü; yerel Whisper ve Codex CLI destekli. | `Python` `PyQt6` |
-| [🛡️ **daakLOLILE**](https://github.com/benfirad/daakLOLILE) | Tor/Snowflake, sistem telemetrisi ve baskıya duyarlı güvenli bakım araçları. | `PowerShell` `macOS` `Windows` |
+| [🕰️ **ClockScrambler**](https://github.com/benfirad/ClockScrambler) | Turns the macOS menu-bar clock into emoji, written time or a background-aware live clock. | `Swift` `AppKit` |
+| [🧠 **daakRAM**](https://github.com/benfirad/daakRAM) | Monitors real memory pressure and provides safe, native app controls. | `Swift` `macOS` |
+| [💡 **daakREMEMBER**](https://github.com/benfirad/daakREMEMBER) | Captures thoughts before they disappear and syncs them privately over Tailscale. | `Swift` `Tailscale` |
+| [🎙️ **daakDİKTE**](https://github.com/benfirad/daakDIKTE-macos) | A Turkish-friendly macOS edition of [Yusuf İpek’s Dikte](https://github.com/yusufipk/dikte), with local Whisper and Codex CLI support. | `Python` `PyQt6` |
+| [🛡️ **daakLOLILE**](https://github.com/benfirad/daakLOLILE) | Runs Tor/Snowflake, system telemetry and pressure-aware maintenance with safe power modes. | `PowerShell` `macOS` `Windows` |
 
 ## `~/toolbox`
 
