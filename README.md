@@ -22,9 +22,8 @@
 | [🕰️ **ClockScrambler**](https://github.com/benfirad/ClockScrambler) | Turns the macOS menu-bar clock into emoji, written time or a background-aware live clock. | `Swift` `AppKit` |
 | [🧠 **daakRAM**](https://github.com/benfirad/daakRAM) | Watches real memory pressure and gives you safe, native app controls. | `Swift` `macOS` |
 | [💡 **daakREMEMBER**](https://github.com/benfirad/daakREMEMBER) | Captures a thought before it disappears and syncs it privately over Tailscale. | `Swift` `Tailscale` |
-| [🎙️ **daakDİKTE**](https://github.com/benfirad/dikte-macos) | A Turkish-friendly native macOS edition of [Yusuf İpek's Dikte](https://github.com/yusufipk/dikte), with local Whisper and Codex CLI support. | `Python` `PyQt6` |
+| [🎙️ **daakDİKTE**](https://github.com/benfirad/daakDIKTE-macos) | A Turkish-friendly native macOS edition of [Yusuf İpek's Dikte](https://github.com/yusufipk/dikte), with local Whisper and Codex CLI support. | `Python` `PyQt6` |
 | [🛡️ **daakLOLILE**](https://github.com/benfirad/daakLOLILE) | Runs Tor/Snowflake, system telemetry and pressure-aware maintenance with safe power modes. | `PowerShell` `macOS` `Windows` |
-| [⚖️ **verdi-legal-flow**](https://github.com/benfirad/verdi-legal-flow) | A focused web experience for Verdi Hukuk Bürosu. | `JavaScript` `Web` |
 
 ## The toolbox
 
@@ -55,4 +54,3 @@
 <p align="center">
   <sub>Build small. Verify the real thing. Share what survives the test.</sub>
 </p>
-

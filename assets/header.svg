@@ -40,6 +40,13 @@
       .line-one { animation: line-one 12s ease-in-out infinite; }
       .line-two { animation: line-two 12s ease-in-out infinite; opacity: 0; }
       .line-three { animation: line-three 12s ease-in-out infinite; opacity: 0; }
+      .giraffe { animation: giraffe-bob .58s ease-in-out infinite; transform-origin: 110px 140px; }
+      .leg-a { animation: leg-a .58s ease-in-out infinite; transform-origin: 78px 158px; }
+      .leg-b { animation: leg-b .58s ease-in-out infinite; transform-origin: 128px 158px; }
+      .tail { animation: tail-swish .58s ease-in-out infinite; transform-origin: 52px 140px; }
+      .speed-line { animation: speed-line .9s linear infinite; }
+      .speed-line:nth-child(2) { animation-delay: -.3s; }
+      .speed-line:nth-child(3) { animation-delay: -.6s; }
       @keyframes drift-one {
         to { transform: translate(85px, 22px) scale(1.08); }
       }
@@ -68,6 +75,27 @@
         0%, 61% { opacity: 0; transform: translateY(8px); }
         67%, 91% { opacity: 1; transform: translateY(0); }
         97%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes giraffe-bob {
+        0%, 100% { transform: translateY(2px) rotate(-1deg); }
+        50% { transform: translateY(-5px) rotate(1deg); }
+      }
+      @keyframes leg-a {
+        0%, 100% { transform: rotate(19deg); }
+        50% { transform: rotate(-24deg); }
+      }
+      @keyframes leg-b {
+        0%, 100% { transform: rotate(-24deg); }
+        50% { transform: rotate(19deg); }
+      }
+      @keyframes tail-swish {
+        0%, 100% { transform: rotate(13deg); }
+        50% { transform: rotate(-18deg); }
+      }
+      @keyframes speed-line {
+        from { transform: translateX(95px); opacity: 0; }
+        20%, 75% { opacity: .7; }
+        to { transform: translateX(-110px); opacity: 0; }
       }
       @media (prefers-reduced-motion: reduce) {
         * { animation: none !important; }
@@ -98,21 +126,66 @@
   </g>
 
   <text x="88" y="190" fill="url(#brand)" filter="url(#softGlow)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="104" font-weight="800" letter-spacing="-5">daak</text>
+  <text x="94" y="220" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" font-style="italic" font-weight="700" letter-spacing=".7">naber gardaş</text>
+  <text x="94" y="250" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="550">uygulamaları kendim için yapıyom işine yarayan olursa alabilirsin</text>
 
   <g fill="#dbeafe" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="500">
-    <text class="line-one" x="92" y="247">macOS utilities that stay out of your way.</text>
-    <text class="line-two" x="92" y="247">privacy-first tools, built in the open.</text>
-    <text class="line-three" x="92" y="247">Swift · Python · PowerShell · useful experiments.</text>
+    <text class="line-one" x="92" y="289">macOS utilities that stay out of your way.</text>
+    <text class="line-two" x="92" y="289">privacy-first tools, built in the open.</text>
+    <text class="line-three" x="92" y="289">Swift · Python · PowerShell · useful experiments.</text>
   </g>
 
-  <g transform="translate(930 89)" fill="none" stroke-linecap="round">
-    <circle cx="74" cy="74" r="72" stroke="#64748b" stroke-opacity=".58" stroke-width="2"/>
-    <circle cx="74" cy="74" r="50" stroke="#a78bfa" stroke-opacity=".85" stroke-width="2" stroke-dasharray="4 10">
-      <animateTransform attributeName="transform" type="rotate" from="0 74 74" to="360 74 74" dur="18s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M39 80l22 22 51-58" stroke="#22d3ee" stroke-width="10" filter="url(#softGlow)"/>
-    <circle cx="74" cy="74" r="6" fill="#22d3ee" stroke="none" class="pulse"/>
-  </g>
+  <svg x="892" y="38" width="250" height="250" viewBox="0 0 250 250" overflow="visible">
+    <g fill="none" stroke="#67e8f9" stroke-linecap="round" stroke-width="4" opacity=".65">
+      <path class="speed-line" d="M32 213h76"/>
+      <path class="speed-line" d="M8 230h58"/>
+      <path class="speed-line" d="M70 247h88"/>
+    </g>
+    <g class="giraffe">
+      <g class="tail" fill="none" stroke-linecap="round">
+        <path d="M54 140C29 136 27 117 12 125" stroke="#fbbf24" stroke-width="8"/>
+        <path d="M13 124l-10-8m10 8L1 130" stroke="#78350f" stroke-width="6"/>
+      </g>
+
+      <g class="leg-a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M77 157l-8 43-27 29" stroke="#fbbf24" stroke-width="13"/>
+        <path d="M42 229h-13" stroke="#78350f" stroke-width="7"/>
+        <path d="M126 158l12 42 27 28" stroke="#fbbf24" stroke-width="13"/>
+        <path d="M165 228h14" stroke="#78350f" stroke-width="7"/>
+      </g>
+      <g class="leg-b" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M92 159l12 43 24 31" stroke="#fde68a" stroke-width="12"/>
+        <path d="M128 233h14" stroke="#78350f" stroke-width="7"/>
+        <path d="M143 156l-7 43-25 31" stroke="#fde68a" stroke-width="12"/>
+        <path d="M111 230H97" stroke="#78350f" stroke-width="7"/>
+      </g>
+
+      <ellipse cx="108" cy="139" rx="64" ry="35" fill="#fbbf24"/>
+      <path d="M145 132c15-28 11-73 28-99" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-width="28"/>
+      <ellipse cx="185" cy="29" rx="30" ry="19" fill="#fbbf24" transform="rotate(8 185 29)"/>
+      <ellipse cx="207" cy="38" rx="20" ry="12" fill="#fde68a" transform="rotate(8 207 38)"/>
+
+      <path d="M170 16l-18-10 5 21zm28 1l20-7-11 20z" fill="#fde68a"/>
+      <path d="M175 10l-3-13m24 16 4-13" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-width="6"/>
+      <circle cx="172" cy="-4" r="5" fill="#78350f"/>
+      <circle cx="201" cy="0" r="5" fill="#78350f"/>
+
+      <g fill="#92400e">
+        <circle cx="75" cy="125" r="10"/>
+        <circle cx="105" cy="151" r="8"/>
+        <circle cx="132" cy="126" r="9"/>
+        <circle cx="151" cy="145" r="6"/>
+        <circle cx="158" cy="96" r="6"/>
+        <circle cx="164" cy="68" r="6"/>
+        <circle cx="174" cy="43" r="5"/>
+        <circle cx="184" cy="19" r="6"/>
+        <circle cx="204" cy="34" r="4"/>
+      </g>
+      <circle cx="190" cy="25" r="3.5" fill="#111827"/>
+      <circle cx="218" cy="39" r="2.8" fill="#78350f"/>
+      <path d="M214 47c-7 5-13 4-17 0" fill="none" stroke="#78350f" stroke-linecap="round" stroke-width="2.5"/>
+    </g>
+  </svg>
 
   <rect x="1" y="1" width="1198" height="328" rx="27" fill="none" stroke="url(#brand)" stroke-opacity=".28" stroke-width="2"/>
 </svg>
