@@ -8,10 +8,26 @@
 
 > İşe yarayan, sessiz çalışan araçlar. Küçük arayüzler, yerel yapay zekâ ve geri alınabilir otomasyonlar.
 
+## `~/showcase`
+
+<p align="center">
+  <a href="https://github.com/benfirad/daak-node"><img src="https://raw.githubusercontent.com/benfirad/daak-node/main/docs/hero.svg" width="49%" alt="DAAK NODE"></a>
+  <a href="https://github.com/benfirad/daakREMEMBER"><img src="https://raw.githubusercontent.com/benfirad/daakREMEMBER/main/docs/hero.svg" width="49%" alt="daakREMEMBER"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/benfirad/daakDIKTE-macos"><img src="https://raw.githubusercontent.com/benfirad/daakDIKTE-macos/macos-support/docs/hero.svg" width="49%" alt="daakDİKTE"></a>
+  <a href="https://github.com/benfirad/daakLOLILE"><img src="https://raw.githubusercontent.com/benfirad/daakLOLILE/main/docs/hero.svg" width="49%" alt="daakLOLILE"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/benfirad/daakRAM"><img src="https://raw.githubusercontent.com/benfirad/daakRAM/main/docs/hero.svg" width="49%" alt="daakRAM"></a>
+  <a href="https://github.com/benfirad/ClockScrambler"><img src="https://raw.githubusercontent.com/benfirad/ClockScrambler/main/docs/hero.svg" width="49%" alt="ClockScrambler"></a>
+</p>
+
 ## `~/projects`
 
 | Project | What it does | Built with |
 | :--- | :--- | :--- |
+| [📱 **DAAK NODE**](https://github.com/benfirad/daak-node) | Rebuilds a Galaxy S9+ as an OLED-black Codex, Tailnet, files, notes and remote-computer control plane. | `Android` `Java` `Linux` |
 | [🕰️ **ClockScrambler**](https://github.com/benfirad/ClockScrambler) | Turns the macOS menu-bar clock into emoji, written time or a background-aware live clock. | `Swift` `AppKit` |
 | [🧠 **daakRAM**](https://github.com/benfirad/daakRAM) | Monitors real memory pressure and provides safe, native app controls. | `Swift` `macOS` |
 | [💡 **daakREMEMBER**](https://github.com/benfirad/daakREMEMBER) | Captures thoughts before they disappear and syncs them privately over Tailscale. | `Swift` `Tailscale` |
