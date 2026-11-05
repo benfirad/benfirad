@@ -19,13 +19,13 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🦆 [DAAK Duffy](https://github.com/benfirad/daak-duffy)
+### 🦆 [DAAK Duffy](https://github.com/benfirad/daak-duffy) <a href="https://github.com/NousResearch/hermes-agent/pull/144514"><img src="https://img.shields.io/badge/NousResearch%20Hermes-Official%20Plugin-7c3aed?style=flat-square" alt="Hermes Plugin"></a>
 
-Self-hosted background AI worker. Queue a task, it runs it with Claude Code, Antigravity or Ollama, falls back between models when one hits its quota, and **stops to show you the exact command** before anything risky. Zero-dependency Python server plus a native SwiftUI menu bar app.
+Self-hosted background AI worker and official [Nous Research Hermes Agent](https://github.com/NousResearch/hermes-agent/pull/144514) catalog plugin. Queue a task, it runs it with Claude Code, Antigravity or Ollama, falls back between models when one hits its quota, and **stops to show you the exact command** before anything risky. Zero-dependency Python server plus a native SwiftUI menu bar app.
 
-<a href="https://benfirad.github.io/daak-duffy/">Website</a> · <a href="https://github.com/benfirad/daak-duffy/blob/main/CHANGELOG.md">Changelog</a>
+<a href="https://benfirad.github.io/daak-duffy/">Website</a> · <a href="https://github.com/benfirad/daak-duffy/blob/main/CHANGELOG.md">Changelog</a> · <a href="https://github.com/NousResearch/hermes-agent/pull/144514">PR #144514</a>
 
-`Python` `SwiftUI` `SQLite` `Claude Code`
+`Python` `SwiftUI` `SQLite` `Claude Code` `Hermes Agent`
 
 </td>
 <td width="50%" valign="top">
@@ -54,7 +54,7 @@ Your TV, minus the ads. Debloats any Android TV over ADB and gives it a clean, t
 
 ## `~/upstream`
 
-- **[NousResearch/hermes-agent #144514](https://github.com/NousResearch/hermes-agent/pull/144514)**: background task queue plugin with an approval gate and multi-model fallback (the ancestor of DAAK Duffy, [standalone version](https://github.com/benfirad/hermes-plugin-antigravity-duet)).
+- **[NousResearch/hermes-agent #144514](https://github.com/NousResearch/hermes-agent/pull/144514)**: **Official plugin catalog admission** for DAAK Duffy (`daak-duffy` / `antigravity-duet`) — background task queue with human-in-the-loop approval gates, multi-agent Ruflo swarms and multi-model Antigravity fallback. Code-reviewed and merged by **@teknium1**.
 - **[Ebullioscopic/Atoll #893](https://github.com/Ebullioscopic/Atoll/pull/893)**: fixed an animation bounce loop, notification CPU spikes and multi-monitor jitter.
 - **[yusufipk/dikte #8](https://github.com/yusufipk/dikte/pull/8), [#44](https://github.com/yusufipk/dikte/pull/44)**: native macOS backend (AVFoundation capture, Carbon hotkeys, key-code mapping).
 - **[Gathin23/cleanyourtv #155](https://github.com/Gathin23/cleanyourtv/pull/155), [#51](https://github.com/Gathin23/cleanyourtv/pull/51)**: tv-vibehack featured in the upstream showcase.
