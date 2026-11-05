@@ -55,6 +55,7 @@ Your TV, minus the ads. Debloats any Android TV over ADB and gives it a clean, t
 ## `~/upstream`
 
 - **[NousResearch/hermes-agent #144514](https://github.com/NousResearch/hermes-agent/pull/144514)**: **Official plugin catalog admission** for DAAK Duffy (`daak-duffy` / `antigravity-duet`) — background task queue with human-in-the-loop approval gates, multi-agent Ruflo swarms and multi-model Antigravity fallback. Code-reviewed and merged by **@teknium1**.
+- **[ruvnet/ruflo #4494](https://github.com/ruvnet/ruflo/pull/4494)**: closed Windows autopilot security guard gaps, NTFS stream bypasses and binary-planting paths across the CLI and console. Reviewed and merged by **@ruvnet**.
 - **[Ebullioscopic/Atoll #893](https://github.com/Ebullioscopic/Atoll/pull/893)**: fixed an animation bounce loop, notification CPU spikes and multi-monitor jitter.
 - **[yusufipk/dikte #8](https://github.com/yusufipk/dikte/pull/8), [#44](https://github.com/yusufipk/dikte/pull/44)**: native macOS backend (AVFoundation capture, Carbon hotkeys, key-code mapping).
 - **[Gathin23/cleanyourtv #155](https://github.com/Gathin23/cleanyourtv/pull/155), [#51](https://github.com/Gathin23/cleanyourtv/pull/51)**: tv-vibehack featured in the upstream showcase.
@@ -67,7 +68,7 @@ A repurposed phone runs headless as a 24/7 edge controller: it watches what the 
 
 ```text
 languages  : Swift (SwiftUI, AppKit), Python, Java, TypeScript, PowerShell, Bash
-ai         : Claude Code, MCP, multi-agent queues, approval gates, whisper.cpp, Ollama
+ai         : Claude Code, Ruflo Swarm, MCP, multi-agent queues, approval gates, whisper.cpp, Ollama
 data       : SQLite FTS5, WAL, delta sync
 infra      : Tailscale, launchd, Docker, Cloudflare Tunnels, GitHub Actions
 principles : local-first · ask before acting · verify the real thing · reversible
