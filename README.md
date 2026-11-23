@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="./assets/header.svg?v=ascii-giraffe-1" width="100%" alt="daak terminal profile with an ASCII giraffe">
 </p>
 
 <p align="center">
